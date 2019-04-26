@@ -1,0 +1,68 @@
+.Apod{
+    
+    cursor: url("Rocket.png"), auto;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color:rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+
+.Apodimage:hover{
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    }
+    
+
+.title{
+    font-size: 50px;
+    padding: 12px;
+    font-weight: bolder;
+    color:rgba(255, 255, 255, 1);
+}
+.date{
+    font-size: 14px;
+    padding: 12px;
+}
+.explanation{
+    font-size: 20px;
+    padding: 12px;
+}
+.Apodimage{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+@media(max-width: 768px){
+    .title{
+        font-size: 20px;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .explanation{
+        font-size: 16px;
+    }
+    .Apod{
+        padding: 15px;
+    }
+}
