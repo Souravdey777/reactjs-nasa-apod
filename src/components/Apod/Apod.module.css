@@ -1,6 +1,5 @@
 .Apod{
-    
-    cursor: url("Rocket.png"), auto;
+
     width: 100%;
     padding: 50px;
     display: flex;
@@ -30,9 +29,9 @@
     
 
 .title{
-    font-size: 50px;
+    font-size: 64px;
     padding: 12px;
-    font-weight: bolder;
+    font-weight: 800 ;
     color:rgba(255, 255, 255, 1);
 }
 .date{

@@ -3,18 +3,6 @@
     max-width: 768px;
     display: flex;
     margin: 50px;
-    margin-bottom: 100px;
-}
-.NasaAPODimg{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    min-width: 768;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
-    filter: blur(2px);
 }
 @media(max-width: 768px){
     .NasaAPOD{

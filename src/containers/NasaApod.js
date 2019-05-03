@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from './NasaApod.module.css';
 import axios from 'axios';
 import Apod from '../components/Apod/Apod';
-import BGImage from '../assets/images/bgimage.jpg';
 
 class NasaApod extends React.Component {
   
@@ -23,7 +22,6 @@ class NasaApod extends React.Component {
     render() {
     return (
       <div className={classNames.NasaAPOD}>
-        <img className={classNames.NasaAPODimg} src={BGImage} alt=""/>
         <Apod Data={this.state.Data}/>
       </div>
     );
