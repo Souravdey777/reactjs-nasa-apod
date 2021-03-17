@@ -11,12 +11,48 @@
 }
 
 .footer {
-  height: 100px;
+  background-color: #232326;
+  color: #ffffff;
+  padding: 1rem 6rem;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.developer {
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.social_icons i,
+.logosvg {
+  color: #eaeaea44;
+  font-size: 20px;
+  margin: 10px;
+  transition-duration: 0.5s;
+}
+
+@media (hover: hover) {
+  .social_icons i:hover {
+    color: #eaeaea;
+  }
 }
 
 @media (max-width: 768px) {
-  .NasaAPOD {
-    /* margin: 30px; */
-    /* margin-bottom: 100px; */
+  .footer {
+    padding: 1rem;
+    font-size: 0.8rem;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer div,
+  .footer b {
+    padding: 0.2rem 0rem;
   }
 }

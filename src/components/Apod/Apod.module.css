@@ -47,10 +47,14 @@
   position: relative;
   text-align: center;
   cursor: default;
-  margin: 20px auto;
+  margin: 50px auto;
   transform-origin: "center center -400";
   border-radius: 7px;
   transition-duration: 0.4s;
+  box-shadow: 0 0 0 1px rgb(53 72 91 / 10%), 0 2px 2px rgb(0 0 0 / 3%),
+    0 4px 4px rgb(0 0 0 / 4%), 0 10px 8px rgb(0 0 0 / 5%),
+    0 15px 15px rgb(0 0 0 / 6%), 0 30px 30px rgb(0 0 0 / 7%),
+    0 70px 65px rgb(0 0 0 / 9%);
 }
 
 .Apodimage:hover {
@@ -66,6 +70,7 @@
 .title {
   width: 80%;
   font-size: 5em;
+  margin: 50px;
   background: -webkit-linear-gradient(
     60deg,
     #e68849,
@@ -89,7 +94,7 @@
   width: 80%;
   font-size: 20px;
   padding: 12px;
-  margin: auto;
+  margin: 50px auto;
 }
 .Apodimage {
   width: 100%;
@@ -106,6 +111,10 @@
   }
   .date {
     font-size: 12px;
+  }
+  .image {
+    width: 70%;
+    margin: 16px auto;
   }
   .explanation {
     font-size: 16px;
