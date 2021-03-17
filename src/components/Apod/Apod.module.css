@@ -1,67 +1,113 @@
-.Apod{
-
-    width: 100%;
-    padding: 50px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    color:rgba(255, 255, 255, 0.8);
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.7);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.rootAPOD {
+  margin-top: 40vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.image{
-    width:100%;
-    height:100%;
-    overflow:hidden;
-    position:relative;
-    text-align:center;
-    cursor:default;
+.logo {
+  height: 10vh;
+  margin: 5vh;
 }
 
-.Apodimage:hover{
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
-    }
-    
+.line {
+  width: 2px;
+  height: 40vh;
+  background: white;
+}
 
-.title{
-    font-size: 64px;
-    padding: 12px;
-    font-weight: 800 ;
-    color:rgba(255, 255, 255, 1);
+.bline {
+  width: 2px;
+  height: 20vh;
+  background: black;
 }
-.date{
-    font-size: 14px;
-    padding: 12px;
+
+.Apod {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: white;
+
+  /* background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(20px); */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition-duration: 0.7s;
+  border: 1px solid transparent;
 }
-.explanation{
+
+.image {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin: 20px auto;
+  transform-origin: "center center -400";
+  border-radius: 7px;
+  transition-duration: 0.4s;
+}
+
+.Apodimage:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.Apod:hover {
+  border: 1px solid white;
+}
+
+.title {
+  width: 80%;
+  font-size: 5em;
+  background: -webkit-linear-gradient(
+    60deg,
+    #e68849,
+    #e0ca4e,
+    #dc8cec,
+    #9ee78c,
+    #3987c7,
+    #db7c64
+  );
+  font-weight: 500;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: rgba(255, 255, 255, 1); */
+}
+.date {
+  font-size: 14px;
+  padding: 12px;
+}
+.explanation {
+  width: 80%;
+  font-size: 20px;
+  padding: 12px;
+  margin: auto;
+}
+.Apodimage {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+}
+@media (max-width: 768px) {
+  .title {
     font-size: 20px;
-    padding: 12px;
-}
-.Apodimage{
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    display:block;
-    position:relative;
-    -webkit-transition:all .4s linear;
-    transition:all .4s linear;
-}
-@media(max-width: 768px){
-    .title{
-        font-size: 20px;
-    }
-    .date{
-        font-size: 12px;
-    }
-    .explanation{
-        font-size: 16px;
-    }
-    .Apod{
-        padding: 15px;
-    }
+  }
+  .date {
+    font-size: 12px;
+  }
+  .explanation {
+    font-size: 16px;
+  }
 }

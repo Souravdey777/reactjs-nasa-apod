@@ -1,12 +1,22 @@
-.NasaAPOD{
-    width: 100%;
-    max-width: 768px;
-    display: flex;
-    margin: 50px;
+.NasaAPOD {
+  width: 100vw;
+  min-height: 100vh;
+  /* max-width: 768px; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: url(https://github.githubassets.com/images/modules/site/readme/readme-bg-pattern.png)
+    repeat fixed rgba(0, 0, 0, 0.9);
+  /* margin: 50px; */
 }
-@media(max-width: 768px){
-    .NasaAPOD{
-        margin: 30px;
-        margin-bottom: 100px;
-    }
+
+.footer {
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .NasaAPOD {
+    /* margin: 30px; */
+    /* margin-bottom: 100px; */
+  }
 }

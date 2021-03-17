@@ -2,6 +2,4 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgb(5, 0, 99) 0%, rgb(37, 138, 254) 100%);
 }
