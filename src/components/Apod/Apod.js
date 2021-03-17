@@ -18,8 +18,8 @@ const Apod = (props) => {
     setXY({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY })
     var sxPos = (e.nativeEvent.offsetX / selectRef.current.clientWidth * 100 - 50) * 2;
     var syPos = (e.nativeEvent.offsetY / selectRef.current.clientHeight * 100 - 50) * 2;
-    setsXY({ x: (0.1* sxPos), y: (-0.1* syPos) })
-    console.log(XY.x, XY.y)
+    setsXY({ x: (-0.1* sxPos), y: (0.1* syPos) })
+    console.log(sXY.x, sXY.y)
   };
   const { title, copyright, date, hdurl, explanation } = props.data
   console.log(props.data)

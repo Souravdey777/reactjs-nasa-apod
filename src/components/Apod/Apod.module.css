@@ -48,7 +48,7 @@
   text-align: center;
   cursor: default;
   margin: 50px auto;
-  transform-origin: "center center -400";
+  transform-origin: "center center -200";
   border-radius: 7px;
   transition-duration: 0.4s;
   box-shadow: 0 0 0 1px rgb(53 72 91 / 10%), 0 2px 2px rgb(0 0 0 / 3%),
