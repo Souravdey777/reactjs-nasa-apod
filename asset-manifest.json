@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/reactjs-nasa-apod/static/css/main.acdd3735.chunk.css",
-    "main.js": "/reactjs-nasa-apod/static/js/main.2923f3a8.chunk.js",
-    "main.js.map": "/reactjs-nasa-apod/static/js/main.2923f3a8.chunk.js.map",
-    "runtime~main.js": "/reactjs-nasa-apod/static/js/runtime~main.063043c3.js",
-    "runtime~main.js.map": "/reactjs-nasa-apod/static/js/runtime~main.063043c3.js.map",
-    "static/js/2.32726960.chunk.js": "/reactjs-nasa-apod/static/js/2.32726960.chunk.js",
-    "static/js/2.32726960.chunk.js.map": "/reactjs-nasa-apod/static/js/2.32726960.chunk.js.map",
+    "main.css": "/reactjs-nasa-apod/static/css/main.2fe545e4.chunk.css",
+    "main.js": "/reactjs-nasa-apod/static/js/main.051345bc.chunk.js",
+    "main.js.map": "/reactjs-nasa-apod/static/js/main.051345bc.chunk.js.map",
+    "runtime-main.js": "/reactjs-nasa-apod/static/js/runtime-main.5047ffa3.js",
+    "runtime-main.js.map": "/reactjs-nasa-apod/static/js/runtime-main.5047ffa3.js.map",
+    "static/js/2.f5fde0a9.chunk.js": "/reactjs-nasa-apod/static/js/2.f5fde0a9.chunk.js",
+    "static/js/2.f5fde0a9.chunk.js.map": "/reactjs-nasa-apod/static/js/2.f5fde0a9.chunk.js.map",
     "index.html": "/reactjs-nasa-apod/index.html",
-    "precache-manifest.5fee033d96b17ec3361f1b88cfa36604.js": "/reactjs-nasa-apod/precache-manifest.5fee033d96b17ec3361f1b88cfa36604.js",
-    "service-worker.js": "/reactjs-nasa-apod/service-worker.js",
-    "static/css/main.acdd3735.chunk.css.map": "/reactjs-nasa-apod/static/css/main.acdd3735.chunk.css.map"
-  }
+    "static/css/main.2fe545e4.chunk.css.map": "/reactjs-nasa-apod/static/css/main.2fe545e4.chunk.css.map",
+    "static/js/2.f5fde0a9.chunk.js.LICENSE.txt": "/reactjs-nasa-apod/static/js/2.f5fde0a9.chunk.js.LICENSE.txt",
+    "static/media/apod logo.317303f0.svg": "/reactjs-nasa-apod/static/media/apod logo.317303f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5047ffa3.js",
+    "static/js/2.f5fde0a9.chunk.js",
+    "static/css/main.2fe545e4.chunk.css",
+    "static/js/main.051345bc.chunk.js"
+  ]
 }
