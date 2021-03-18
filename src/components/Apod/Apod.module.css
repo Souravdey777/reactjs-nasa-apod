@@ -57,7 +57,7 @@
     0 70px 65px rgb(0 0 0 / 9%);
 }
 
-.Apodimage:hover {
+.image:hover {
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
@@ -71,15 +71,7 @@
   width: 80%;
   font-size: 5em;
   margin: 50px;
-  background: -webkit-linear-gradient(
-    60deg,
-    #e68849,
-    #e0ca4e,
-    #dc8cec,
-    #9ee78c,
-    #3987c7,
-    #db7c64
-  );
+  background: -webkit-linear-gradient(75deg, #a8e798, #3987c7, #dbc564);
   font-weight: 500;
   background-clip: text;
   -webkit-background-clip: text;
